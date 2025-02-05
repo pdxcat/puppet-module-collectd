@@ -8864,6 +8864,7 @@ The collectd::plugin::network::server class.
 
 The following parameters are available in the `collectd::plugin::network::server` defined type:
 
+* [`hostname`](#-collectd--plugin--network--server--hostname)
 * [`ensure`](#-collectd--plugin--network--server--ensure)
 * [`username`](#-collectd--plugin--network--server--username)
 * [`password`](#-collectd--plugin--network--server--password)
@@ -8872,6 +8873,14 @@ The following parameters are available in the `collectd::plugin::network::server
 * [`interface`](#-collectd--plugin--network--server--interface)
 * [`forward`](#-collectd--plugin--network--server--forward)
 * [`resolveinterval`](#-collectd--plugin--network--server--resolveinterval)
+
+##### <a name="-collectd--plugin--network--server--hostname"></a>`hostname`
+
+Data type: `String[1]`
+
+The hostname of the server to connect to
+
+Default value: `$name`
 
 ##### <a name="-collectd--plugin--network--server--ensure"></a>`ensure`
 
